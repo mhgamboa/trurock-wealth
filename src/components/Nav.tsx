@@ -1,12 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "@/images/Logo7.png";
 
 function Nav() {
   return (
-    <div className="navbar bg-base-100 py-4">
+    <div className="navbar bg-base-100 py-4 px-4">
+      {/* Mobile Menu & Logo */}
       <div className="navbar-start">
         <div className="dropdown">
+          {/* Hamburger Button */}
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,33 +49,40 @@ function Nav() {
             </li>
           </ul>
         </div>
-        <Image src={Logo} alt="logo" width={250} />
+        <Link href={"/"}>
+          <Image src={Logo} alt="logo" width={250} />
+        </Link>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      {/* Desktop Menu */}
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg">
           <li>
-            <a>Item 1</a>
+            <Link href="/team">Who We Are</Link>
           </li>
+          {/* What we Do */}
           <li tabIndex={0}>
             <details>
-              <summary>Parent</summary>
+              <summary>What We Do</summary>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Financial Planning</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Investments</a>
+                </li>
+                <li>
+                  <a>Financial Planning</a>
+                </li>
+                <li>
+                  <a>Insurance</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>How We Do it</a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn btn-primary">Button</a>
       </div>
     </div>
   );
