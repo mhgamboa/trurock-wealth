@@ -1,3 +1,6 @@
+import Feature1 from "@/components/Features/Feature1";
+import Steps1 from "@/components/Features/Steps1";
+import Testimonials1 from "@/components/Features/Testimonials1";
 import Foot from "@/components/Foot";
 import Nav from "@/components/Nav";
 import Hero from "@/components/home/Hero";
@@ -15,6 +18,9 @@ export default function Home() {
       <Nav />
       <Hero />
       <Packages />
+      <Steps1 />
+      <Feature1 />
+      <Testimonials1 />
       <Foot />
     </main>
   );
