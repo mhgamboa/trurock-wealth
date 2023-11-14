@@ -42,8 +42,8 @@ function Feature1() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              We meet 1-on-1 to make sure that you're taken care of. We create unique plans for
-              each one of our clients to make sure they feel great about their investments
+              We meet 1-on-1 to make sure that you&apos;re taken care of. We create unique plans
+              for each one of our clients to make sure they feel great about their investments.
             </p>
 
             <a
