@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+export default function Carousel1() {
   return (
     <div
       className="hero h-70vh"
@@ -24,5 +24,3 @@ function Hero() {
     </div>
   );
 }
-
-export default Hero;

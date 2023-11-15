@@ -3,7 +3,7 @@ import Steps1 from "@/components/Features/Steps1";
 import Testimonials1 from "@/components/Features/Testimonials1";
 import Foot from "@/components/Foot";
 import Nav from "@/components/Nav";
-import Hero from "@/components/home/Hero";
+import Hero from "@/components/home/hero/Hero";
 import Packages from "@/components/home/Packages";
 import Image from "next/image";
 

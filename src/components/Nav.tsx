@@ -5,7 +5,7 @@ import Logo from "@/images/Logo7.png";
 
 function Nav() {
   return (
-    <div className="navbar bg-base-100 py-4 px-4">
+    <div className="navbar bg-base-100 py-4 px-4 shadow-lg">
       {/* Mobile Menu & Logo */}
       <div className="navbar-start">
         <div className="dropdown">
