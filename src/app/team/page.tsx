@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import davidProfile from "@/images/david-profile.jpg";
 import marcusProfile from "@/images/marcus-profile.jpg";
+import CtaDark from "@/components/CtaDark";
 
 function Team() {
   return (
@@ -312,6 +313,7 @@ function Team() {
           </div>
         </div>
       </section>
+      <CtaDark />
       <Foot />
     </>
   );

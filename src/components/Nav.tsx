@@ -31,21 +31,27 @@ function Nav() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <Link href="/team">Who We Are</Link>
             </li>
             <li>
-              <a>Parent</a>
+              <a>What We Do</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Financial Planning</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Investments</a>
+                </li>
+                <li>
+                  <a>Financial Counseling</a>
+                </li>
+                <li>
+                  <a>Insurance</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>How We Do It</a>
             </li>
           </ul>
         </div>
@@ -63,7 +69,7 @@ function Nav() {
           <li tabIndex={0}>
             <details>
               <summary>What We Do</summary>
-              <ul className="p-2">
+              <ul className="p-2 w-56">
                 <li>
                   <a>Financial Planning</a>
                 </li>
@@ -71,7 +77,7 @@ function Nav() {
                   <a>Investments</a>
                 </li>
                 <li>
-                  <a>Financial Planning</a>
+                  <a>Financial Counseling</a>
                 </li>
                 <li>
                   <a>Insurance</a>

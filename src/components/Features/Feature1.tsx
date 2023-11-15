@@ -2,7 +2,7 @@ import React from "react";
 
 function Feature1() {
   return (
-    <section className="bg-white dark:bg-gray-900 pb-5">
+    <section className="bg-white dark:bg-gray-900 pb-5 lg:px-10">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
           What We Provide for <span className="underline decoration-secondary">You</span>
@@ -90,9 +90,9 @@ function Feature1() {
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              We allow customizations of any kind. you can buy stocks, bonds, etc. placeholder
-              text placeholder text placeholder text placeholder text placeholder text
-              placeholder text placeholder text
+              Your goals evolve, and so do we. We provide continuous support, regularly reviewing
+              and adapting your financial strategy to align with market changes and your
+              circumstances.
             </p>
 
             <a
@@ -135,12 +135,12 @@ function Feature1() {
             </span>
 
             <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              Simple & clean designs
+              Educational Empowerments
             </h1>
 
             <p className="text-gray-500 dark:text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod
-              dignissimos vel non corrupti doloribus voluptatum eveniet
+              Knowledge is key to financial success. We engage you through resources, workshops,
+              and transparent communication, empowering you to make informed decisions.
             </p>
 
             <a

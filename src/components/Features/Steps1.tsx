@@ -1,4 +1,7 @@
 import React from "react";
+import { FaCalendar } from "react-icons/fa";
+import { PiStrategyFill } from "react-icons/pi";
+import { TbTargetArrow, TbExchange } from "react-icons/tb";
 
 function Steps1() {
   return (
@@ -13,25 +16,16 @@ function Steps1() {
             1
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center py-3">
+              <FaCalendar className="text-4xl" />
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                 Schedule an initial consultation
               </h2>
               <p className="leading-relaxed">
-                Our award winning advisors will meet to discover your exact needs
+                Start by scheduling a consultation where our expert advisors learn about your
+                financial goals.
               </p>
             </div>
           </div>
@@ -44,25 +38,16 @@ function Steps1() {
             2
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center py-2">
+              <PiStrategyFill className="text-4xl" />
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
                 Find a Plan that fits you
               </h2>
               <p className="leading-relaxed">
-                Text goes here that explains that every plan is personalized
+                We tailor a comprehensive financial plan to match your unique needs and
+                objectives.
               </p>
             </div>
           </div>
@@ -75,27 +60,16 @@ function Steps1() {
             3
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <circle cx="12" cy="5" r="3"></circle>
-                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-              </svg>
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center py-2">
+              <TbTargetArrow className="text-4xl" />
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                The 400 Blows
+                Precision Implementation
               </h2>
               <p className="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
-                cliche palo santo offal.
+                Watch as we seamlessly execute your plan, be it in investment, retirement, or
+                wealth management.
               </p>
             </div>
           </div>
@@ -108,25 +82,16 @@ function Steps1() {
             4
           </div>
           <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-12 h-12"
-                viewBox="0 0 24 24"
-              >
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+            <div className="flex-shrink-0 w-24 h-24 bg-indigo-100 text-primary rounded-full inline-flex items-center justify-center py-2">
+              <TbExchange className="text-4xl" />
             </div>
             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Neptune</h2>
+              <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+                Ongoing Adaptation
+              </h2>
               <p className="leading-relaxed">
-                VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard
-                cliche palo santo offal.
+                Our commitment doesn&apos;t end – we continuously review and adapt your strategy
+                for lasting financial success.
               </p>
             </div>
           </div>
