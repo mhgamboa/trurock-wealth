@@ -24,7 +24,12 @@ export default function Products() {
             Learn More
           </a>
         </div>
-        <Image className="w-full h-full" src={Product1} alt="financial planning" />
+        <Image
+          className="w-full h-full"
+          src={Product1}
+          placeholder="blur"
+          alt="financial planning"
+        />
       </div>
       <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 py-24 px-4">
         <div className="order-none md:order-2 space-y-4">
@@ -47,7 +52,12 @@ export default function Products() {
             </a>
           </div>
         </div>
-        <Image className="w-full h-full" src={Product2} alt="investment paper" />
+        <Image
+          className="w-full h-full"
+          src={Product2}
+          placeholder="blur"
+          alt="investment paper"
+        />
       </div>
       <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-32 gap-x-10 md:gap-x-24 py-24 px-4">
         <div className="space-y-4">
@@ -64,7 +74,12 @@ export default function Products() {
             Learn More
           </a>
         </div>
-        <Image className="w-full h-full" src={Product3} alt="financial planning" />
+        <Image
+          className="w-full h-full"
+          src={Product3}
+          placeholder="blur"
+          alt="financial planning"
+        />
       </div>
       <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 py-24 px-4">
         <div className="order-none md:order-2 space-y-4">
@@ -87,7 +102,12 @@ export default function Products() {
             </a>
           </div>
         </div>
-        <Image className="w-full h-full" src={Product4} alt="investment paper" />
+        <Image
+          className="w-full h-full"
+          src={Product4}
+          placeholder="blur"
+          alt="investment paper"
+        />
       </div>
     </section>
   );
