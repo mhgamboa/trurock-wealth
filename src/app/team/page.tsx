@@ -10,7 +10,7 @@ function Team() {
   return (
     <>
       <Nav />
-      <section className=" bg-base-100">
+      <main className=" bg-base-100 pt-20 lg:pt-24">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">
             Our <span className="text-secondary">Executive Team</span>
@@ -26,7 +26,7 @@ function Team() {
           </p>
 
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
-            <div className="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-secondary ">
+            <div className="px-12 py-8 transition-colors duration-300 transform border rounded-xl group">
               <div className="flex flex-col sm:-mx-4 sm:flex-row">
                 <Image
                   className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
@@ -36,17 +36,15 @@ function Team() {
                 />
 
                 <div className="mt-4 sm:mx-4 sm:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl  group-hover:text-white">
+                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl ">
                     David Gallman
                   </h1>
 
-                  <p className="mt-2 text-gray-500 capitalize group-hover:text-gray-300">
-                    Founder and CEO
-                  </p>
+                  <p className="mt-2 text-gray-500 capitalize">Founder and CEO</p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-500 capitalize group-hover:text-white">
+              <p className="mt-4 text-gray-500 capitalize">
                 David is an expert in retail investment and brokerage client acquisition. With a
                 deep understanding of financial products, he excels in both independent and
                 collaborative settings. David&apos;s strong interpersonal skills, effective
@@ -60,12 +58,10 @@ function Team() {
                 <a
                   href="https://www.linkedin.com/in/david-a-gallman-3079343a/"
                   target="_blank"
-                  className="mx-2 text-gray-600 hover:text-gray-50 group-hover:text-white"
+                  className="mx-2 text-gray-600 hover:text-gray-800 duration-300"
                 >
                   <svg
-                    className="h-5 w-5"
-                    width="24"
-                    height="24"
+                    className="h-7 w-7"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +72,7 @@ function Team() {
               </div>
             </div>
 
-            <div className="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-secondary ">
+            <div className="px-12 py-8 transition-colors duration-300 transform border rounded-xl group">
               <div className="flex flex-col sm:-mx-4 sm:flex-row">
                 <Image
                   className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
@@ -86,15 +82,15 @@ function Team() {
                 />
 
                 <div className="mt-4 sm:mx-4 sm:mt-0">
-                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl group-hover:text-white">
+                  <h1 className="text-xl font-semibold text-gray-700 capitalize md:text-2xl">
                     Marcus Gamboa
                   </h1>
 
-                  <p className="mt-2 text-gray-500 capitalize group-hover:text-gray-300">COO</p>
+                  <p className="mt-2 text-gray-500 capitalize">COO</p>
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-500 capitalize group-hover:text-white">
+              <p className="mt-4 text-gray-500 capitalize">
                 Marcus is a seasoned entrepreneur and accomplished software engineer specializing
                 in crafting modern websites. With a degree in entrepreneurship from BYU, Marcus
                 has successfully founded multiple companies, showcasing his prowess in both
@@ -107,12 +103,10 @@ function Team() {
                 <a
                   href="https://www.linkedin.com/in/marcus-gamboa/"
                   target="_blank"
-                  className="mx-2 text-gray-600 hover:text-gray-50 group-hover:text-white"
+                  className="mx-2 text-gray-600 hover:text-gray-800 duration-300"
                 >
                   <svg
-                    className="h-5 w-5"
-                    width="24"
-                    height="24"
+                    className="h-7 w-7"
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
@@ -312,7 +306,7 @@ function Team() {
             </div> */}
           </div>
         </div>
-      </section>
+      </main>
       <CtaDark />
       <Foot />
     </>

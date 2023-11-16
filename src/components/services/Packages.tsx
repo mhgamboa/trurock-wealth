@@ -56,9 +56,9 @@ function Packages({ packages }: PackagesProps) {
               </ul>
               <div className="min-h-max flex grow items-end justify-center">
                 <Link
-                  href="#"
+                  href="https://calendly.com/trurock-wealth"
                   target="_blank"
-                  className="btn btn-primary tracking-wide font-semibold text-white"
+                  className="btn btn-accent btn-wide tracking-wide font-semibold"
                 >
                   {pkg.buttonText}
                 </Link>

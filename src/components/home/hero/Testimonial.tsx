@@ -10,9 +10,7 @@ export default function Testimonial() {
           What clients are saying
         </h1>
 
-        <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
-          <div className="absolute w-full bg-secondary -z-10 md:h-96 rounded-2xl"></div>
-
+        <main className="relative w-full mt-8 md:flex md:items-center xl:mt-12">
           <div className="w-full p-6 bg-secondary md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
             <Image
               className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[16rem] md:w-40 lg:h-[18rem] lg:w-[13rem] md:rounded-2xl"
