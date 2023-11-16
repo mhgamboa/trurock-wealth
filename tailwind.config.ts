@@ -32,7 +32,7 @@ const config: Config = {
         mytheme: {
           primary: "#5b8585",
           secondary: "#002a5f",
-          accent: "#eab308",
+          accent: "#fde047",
           neutral: "#e5e7eb",
           "base-100": "#f6f6f6",
           info: "#7dd3fc",

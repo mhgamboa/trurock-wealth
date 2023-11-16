@@ -6,7 +6,7 @@ import Product2 from "@/images/product2.jpg";
 import Product3 from "@/images/product3.jpg";
 import Product4 from "@/images/product4.jpg";
 
-export default function Products() {
+export default function Services() {
   return (
     <section className="px-4 py-24 mx-auto max-w-7xl bg-base-100">
       <h1 className="text-center text-5xl font-bold text-secondary">What We Offer</h1>
@@ -20,9 +20,13 @@ export default function Products() {
             goals, craft tailored strategies for investments, retirement, and risk management.
             Gain confidence and peace of mind as we guide you toward a secure financial future.
           </p>
-          <a href="#" className="w-full btn btn-secondary text-slate-50 btn-lg sm:w-auto">
+
+          <Link
+            className="w-full btn btn-secondary text-slate-50 btn-lg sm:w-auto"
+            href="/services/financial-planning"
+          >
             Learn More
-          </a>
+          </Link>
         </div>
         <Image
           className="w-full h-full"

@@ -40,7 +40,7 @@ export default function Header() {
             <a
               href="https://calendly.com/trurock-wealth"
               target="_blank"
-              className="btn btn-accent cursor-pointer"
+              className="btn btn-accent btn-lg btn-wide cursor-pointer"
             >
               Get started
             </a>

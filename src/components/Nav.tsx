@@ -5,7 +5,7 @@ import Logo from "@/images/Logo7.png";
 
 function Nav() {
   return (
-    <div className="navbar bg-base-100 py-4 px-4 z-10">
+    <div className="navbar bg-white py-4 px-4 z-10 fixed shadow-md">
       {/* Mobile Menu & Logo */}
       <div className="navbar-start">
         <div className="dropdown">
@@ -71,7 +71,7 @@ function Nav() {
               <summary>What We Do</summary>
               <ul className="p-2 w-56 z-10">
                 <li>
-                  <a>Financial Planning</a>
+                  <Link href="/services/financial-planning">Financial Planning</Link>
                 </li>
                 <li>
                   <a>Investments</a>
