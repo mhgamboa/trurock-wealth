@@ -7,17 +7,17 @@ export default function Typewriter() {
     <TypeAnimation
       sequence={[
         "Individuals",
-        5000,
+        2000,
         "Parents",
-        4000,
+        3000,
         "Veterans",
-        4000,
+        3000,
         "Retirees",
-        4000,
+        3000,
         "Everyone",
-        4000,
+        3000,
         "You",
-        4000,
+        3000,
       ]}
       wrapper="span"
       speed={1}

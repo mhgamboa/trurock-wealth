@@ -6,6 +6,9 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/home/hero/Hero";
 import Packages from "@/components/home/Packages";
 import Image from "next/image";
+import Products from "@/components/home/Products";
+import Testimonial from "@/components/home/hero/Testimonial";
+import CtaDark from "@/components/CtaDark";
 
 // Primary1 = #002a5f
 // primary2 = #5b8585
@@ -17,10 +20,12 @@ export default function Home() {
     <main className="min-h-screen">
       <Nav />
       <Hero />
-      <Packages />
-      <Steps1 />
-      <Feature1 />
-      <Testimonials1 />
+      <Testimonial />
+      <Products />
+      {/* <Steps1 /> */}
+      {/* <Feature1 /> */}
+      {/* <Testimonials1 /> */}
+      <CtaDark />
       <Foot />
     </main>
   );

@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Typewriter from "./Typewriter";
-import financePicture from "@/images/financial-planning.jpg";
+import heroPicture from "@/images/financial-planning.jpg";
 
 export default function Header() {
   return (
     <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 h-70vh overflow-hidden">
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
         <svg
-          className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
+          className="absolute left-0 hidden h-full text-base-100 transform -translate-x-1/2 lg:block"
           viewBox="0 0 100 100"
           fill="currentColor"
           preserveAspectRatio="none slice"
@@ -15,8 +15,8 @@ export default function Header() {
           <path d="M50 0H100L50 100H0L50 0Z" />
         </svg>
         <Image
-          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full hidden lg:block h-100vh"
-          src={financePicture}
+          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full hidden lg:block overflow-hidden -z-10"
+          src={heroPicture}
           alt="planning business"
         />
       </div>
@@ -32,12 +32,16 @@ export default function Header() {
             </span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            A small team with personal care — You&apos;re not a number, you&apos;re a person. We
-            work with you to create a holistic financial plan that will set you up for success
-            now and in the future
+            A team with personal care — You&apos;re not a number, you&apos;re a person. We work
+            with you to create a holistic financial plan that will set you up for success now and
+            in the future
           </p>
           <div className="flex items-center space-x-4">
-            <a href="google.com" target="_blank" className="btn btn-accent cursor-pointer">
+            <a
+              href="https://calendly.com/trurock-wealth"
+              target="_blank"
+              className="btn btn-accent cursor-pointer"
+            >
               Get started
             </a>
             <a
