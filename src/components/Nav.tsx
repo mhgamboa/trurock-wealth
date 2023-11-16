@@ -37,7 +37,7 @@ function Nav() {
               <a>What We Do</a>
               <ul className="p-2">
                 <li>
-                  <a>Financial Planning</a>
+                  <Link href="/services/financial-planning">Financial Planning</Link>
                 </li>
                 <li>
                   <a>Investments</a>
