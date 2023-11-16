@@ -30,15 +30,15 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-          primary: "#002a5f",
-          secondary: "#5b8585",
-          accent: "#f9a8d4",
-          neutral: "#2b2b2b",
+          primary: "#5b8585",
+          secondary: "#002a5f",
+          accent: "#eab308",
+          neutral: "#e5e7eb",
           "base-100": "#f6f6f6",
-          info: "#ffffff",
-          success: "#4ade80",
-          warning: "#fde047",
-          error: "#be123c",
+          info: "#7dd3fc",
+          success: "#99f6e4",
+          warning: "#fef08a",
+          error: "#dc2626",
         },
       },
     ],

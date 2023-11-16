@@ -7,21 +7,21 @@ export default function Typewriter() {
     <TypeAnimation
       sequence={[
         "Individuals",
+        5000,
+        "Parents",
         4000,
         "Veterans",
-        3000,
-        "Everyone",
-        3000,
-        "You",
-        3000,
+        4000,
         "Retirees",
-        3000,
-        "All",
-        3000,
+        4000,
+        "Everyone",
+        4000,
+        "You",
+        4000,
       ]}
       wrapper="span"
       speed={1}
-      repeat={Infinity}
+      repeat={0}
     />
   );
 }
