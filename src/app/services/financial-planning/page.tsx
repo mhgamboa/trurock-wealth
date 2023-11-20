@@ -9,8 +9,8 @@ export default function page() {
     <>
       <Nav />
       <main className="pt-20 lg:pt-24">
-        <Packages packages={packagesData} />
         <Steps stepsData={stepsData} />
+        <Packages packages={packagesData} />
       </main>
     </>
   );

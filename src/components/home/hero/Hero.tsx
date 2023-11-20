@@ -23,7 +23,7 @@ export default function Header() {
       <div className="relative flex flex-col justify-center items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl lg:py-20 xl:py-40 h-60vh">
         <div className="lg:max-w-lg lg:pr-5">
           <p className="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider bg-green-200 text-green-700 uppercase rounded-full bg-teal-accent-400">
-            Now Accepting Clients
+            Accepting New Clients
           </p>
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             Financial Planning for <br />
