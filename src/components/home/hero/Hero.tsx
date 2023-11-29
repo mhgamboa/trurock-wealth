@@ -26,7 +26,7 @@ export default function Header() {
             Accepting New Clients
           </p>
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            Financial Planning for <br />
+            Helping individuals with <br />
             <span className="inline-block text-secondary">
               <Typewriter />
             </span>

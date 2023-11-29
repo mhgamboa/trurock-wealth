@@ -6,22 +6,18 @@ export default function Typewriter() {
   return (
     <TypeAnimation
       sequence={[
-        "Individuals",
+        "Investments",
         2000,
-        "Parents",
+        "Financial Planning",
         3000,
-        "Veterans",
+        "Insurance",
         3000,
-        "Retirees",
-        3000,
-        "Everyone",
-        3000,
-        "You",
+        "Financial Counseling",
         3000,
       ]}
       wrapper="span"
       speed={1}
-      repeat={0}
+      repeat={Infinity}
     />
   );
 }
