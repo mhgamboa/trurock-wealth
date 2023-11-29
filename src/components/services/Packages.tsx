@@ -18,7 +18,7 @@ function Packages({ packages }: PackagesProps) {
     <section className="bg-white">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h1 className="mb-4 text-4xl tracking-tight font-extrabold">Made for Investors</h1>
+          <h1 className="mb-4 text-4xl tracking-tight font-extrabold">Our Packages</h1>
         </div>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           {packages.map((pkg, index) => (
@@ -27,10 +27,10 @@ function Packages({ packages }: PackagesProps) {
               className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg border border-gray-100 shadow xl:p-8"
             >
               <h2 className="mb-4 text-2xl font-semibold">{pkg.title}</h2>
-              <p className="font-light text-gray-500 sm:text-lg">{pkg.description}</p>
+              <p className="font-light text-gray-500 sm:text-lg h-[8rem]">{pkg.description}</p>
               {pkg.price && (
                 <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-5xl font-extrabold">${pkg.price}</span>
+                  <span className="mr-2 text-5xl font-extrabold">{pkg.price}</span>
                   <span className="text-gray-500">/yearly</span>
                 </div>
               )}

@@ -48,12 +48,12 @@ export default function Services() {
           </p>
 
           <div className="flex w-full justify-end">
-            <a
-              href="#"
+            <Link
+              href="/services/investments"
               className="w-full btn btn-secondary text-slate-50 btn-lg sm:w-auto justify-self-end self-end place-self-end"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
         <Image
