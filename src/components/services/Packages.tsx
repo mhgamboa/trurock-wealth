@@ -27,7 +27,9 @@ function Packages({ packages }: PackagesProps) {
               className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 rounded-lg border border-gray-100 shadow xl:p-8"
             >
               <h2 className="mb-4 text-2xl font-semibold">{pkg.title}</h2>
-              <p className="font-light text-gray-500 sm:text-lg h-[8rem]">{pkg.description}</p>
+              {pkg.description && (
+                <p className="font-light text-gray-500 sm:text-lg h-[8rem]">{pkg.description}</p>
+              )}
               {pkg.price && (
                 <div className="flex justify-center items-baseline my-8">
                   <span className="mr-2 text-5xl font-extrabold">{pkg.price}</span>

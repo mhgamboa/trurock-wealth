@@ -4,8 +4,8 @@ import Testimonial1 from "@/images/testimonial1.jpg";
 
 export default function Testimonial() {
   return (
-    <section className="bg-base-100 p-4">
-      <div className="max-w-6xl px-6 py-10 mx-auto bg:base-100 md:bg-secondary rounded-md">
+    <section className="bg-white p-4">
+      <div className="max-w-6xl px-6 py-10 mx-auto bg:base-100 md:bg-primary rounded-md">
         <h1 className="mt-2 text-2xl font-semibold capitalize lg:text-3xl text-secondary md:text-white">
           What clients are saying
         </h1>

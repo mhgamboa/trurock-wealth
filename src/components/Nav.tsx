@@ -39,7 +39,7 @@ function Nav() {
                 <li>
                   <Link href="/services/financial-planning">Financial Planning</Link>
                 </li>
-                <li>
+                {/* <li>
                   <a>Investments</a>
                 </li>
                 <li>
@@ -47,12 +47,12 @@ function Nav() {
                 </li>
                 <li>
                   <a>Insurance</a>
-                </li>
+                </li> */}
               </ul>
             </li>
-            <li>
+            {/* <li>
               <a>How We Do It</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <Link href={"/"}>
@@ -62,10 +62,6 @@ function Nav() {
       {/* Desktop Menu */}
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg">
-          <li>
-            <Link href="/team">Who We Are</Link>
-          </li>
-          {/* What we Do */}
           <li tabIndex={0}>
             <details>
               <summary>What We Do</summary>
@@ -73,7 +69,7 @@ function Nav() {
                 <li>
                   <Link href="/services/financial-planning">Financial Planning</Link>
                 </li>
-                <li>
+                {/* <li>
                   <a>Investments</a>
                 </li>
                 <li>
@@ -81,13 +77,18 @@ function Nav() {
                 </li>
                 <li>
                   <a>Insurance</a>
-                </li>
+                </li> */}
               </ul>
             </details>
           </li>
           <li>
-            <a>How We Do it</a>
+            <Link href="/team">Who We Are</Link>
           </li>
+          {/* What we Do */}
+
+          {/* <li>
+            <a>How We Do it</a>
+          </li> */}
         </ul>
       </div>
     </div>

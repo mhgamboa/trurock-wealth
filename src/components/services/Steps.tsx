@@ -16,8 +16,8 @@ interface StepsProps {
 
 const Steps = ({ stepsData }: StepsProps) => {
   return (
-    <section className="text-secondary body-font pt-10 ">
-      <h1 className="text-center text-5xl p-5 font-bold">How it Works</h1>
+    <section className="text-secondary body-font bg-base-100">
+      <h1 className="text-center text-4xl p-5 font-semibold">How it Works</h1>
       <div className="container px-5 pb-16 mx-auto flex flex-wrap pt-10">
         {stepsData.map((step, index) => (
           <div
@@ -49,6 +49,15 @@ const Steps = ({ stepsData }: StepsProps) => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex w-full justify-center pb-10">
+        <a
+          href="https://calendly.com/trurock-wealth"
+          target="_blank"
+          className="btn btn-accent btn-lg btn-wide cursor-pointer"
+        >
+          Schedule Now
+        </a>
       </div>
     </section>
   );

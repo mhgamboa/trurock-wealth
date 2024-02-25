@@ -22,12 +22,12 @@ export default function Header() {
       </div>
       <div className="relative flex flex-col justify-center items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl lg:py-20 xl:py-40 h-60vh">
         <div className="lg:max-w-lg lg:pr-5">
-          <p className="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider bg-green-200 text-green-700 uppercase rounded-full bg-teal-accent-400">
+          {/* <p className="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider bg-green-200 text-green-700 uppercase rounded-full bg-teal-accent-400">
             Accepting New Clients
-          </p>
+          </p> */}
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             Helping individuals with <br />
-            <span className="inline-block text-secondary">
+            <span className="inline-block text-primary">
               <Typewriter />
             </span>
           </h2>
